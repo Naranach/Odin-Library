@@ -1,0 +1,112 @@
+body{
+    background-color: lightslategray;
+}
+.header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+    
+}
+.create{
+
+    text-align: center;
+    align-items: center;
+}
+.bookcontainer{
+    display: flex;
+        flex-wrap: wrap;
+}
+.book{
+    width: 20vh;
+    border: 2px solid black;
+    border-radius:5px ;
+    box-sizing: content-box;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titlediv{
+    font-size: large;
+    font-weight: bold;
+}
+#popUp{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    background: grey;
+    border: black solid 3px;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  #addbtn{
+    background: #581ed6;
+    background-image: -webkit-linear-gradient(top, #581ed6, #d804e3);
+    background-image: -moz-linear-gradient(top, #581ed6, #d804e3);
+    background-image: -ms-linear-gradient(top, #581ed6, #d804e3);
+    background-image: -o-linear-gradient(top, #581ed6, #d804e3);
+    background-image: linear-gradient(to bottom, #581ed6, #d804e3);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0px 8px 4px 10px;
+    text-decoration: none;
+  }
+  #newbookbtn{
+    background: #581ed6;
+    background-image: -webkit-linear-gradient(top, #581ed6, #d804e3);
+    background-image: -moz-linear-gradient(top, #581ed6, #d804e3);
+    background-image: -ms-linear-gradient(top, #581ed6, #d804e3);
+    background-image: -o-linear-gradient(top, #581ed6, #d804e3);
+    background-image: linear-gradient(to bottom, #581ed6, #d804e3);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0px 8px 4px 10px;
+    text-decoration: none;
+  }
+  #close{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    background: #3498db;
+    padding: 0px 8px 4px 10px;
+    text-decoration: none;
+
+  }
+
+  .readBtn{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0px 8px 4px 10px;
+    text-decoration: none;
+  }
+  .removeBtn{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffff;
+    font-size: 17px;
+    padding: 0px 8px 4px 10px;
+    text-decoration: none;
+    background-color: #581ed6;
+  }
