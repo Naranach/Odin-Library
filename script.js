@@ -35,20 +35,21 @@ const pagesdiv=document.createElement("div")
 const removeBtn=document.createElement('button')
 const readBtn=document.createElement('button')
 
+
 book.classList.add("book")
 bookcontainer.appendChild(book)
 
 titlediv.classList.add("titlediv")
 book.appendChild(titlediv)
-titlediv.innerText=newBook.title
+titlediv.innerHTML=newBook.title+"<br>"+"<br>"
 
 authordiv.classList.add("authordiv")
 book.appendChild(authordiv)
-authordiv.innerHTML=newBook.author
+authordiv.innerHTML=newBook.author+"<br>"+"<br>"
 
 pagesdiv.classList.add("pagesdiv")
 book.appendChild(pagesdiv)
-pagesdiv.innerHTML=newBook.pages+"sayfa"
+pagesdiv.innerHTML=newBook.pages+" "+"sayfa"+"<br>"+"<br>"
 readBtn.classList.add("readBtn")
 book.appendChild(readBtn)
 if(newBook.read===false){
@@ -72,6 +73,7 @@ readBtn.addEventListener('click',()=>{
 })
 removeBtn.classList.add("removeBtn")
 book.appendChild(removeBtn)
+removeBtn.textContent='Sil'
 removeBtn.addEventListener('click',function(){
     book.remove()
 
